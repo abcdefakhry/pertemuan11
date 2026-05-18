@@ -1,0 +1,44 @@
+{
+  "info": {
+    "_postman_id": "35c4598f-2223-4b22-9d98-57c6ce6defa8",
+    "name": "pertemuan11",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52625144",
+    "_collection_link": "https://go.postman.co/collection/52625144-35c4598f-2223-4b22-9d98-57c6ce6defa8?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "http://localhost:3081/api/obesity/predict",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"height\": 170,\n  \"weight\": 60,\n  \"age\": 20\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3081/api/obesity/predict",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3081",
+          "path": [
+            "api",
+            "obesity",
+            "predict"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
